@@ -228,7 +228,7 @@ int *appendres(int result[],int data[],int counter)
 int main()
 {
     int i, i1, j, m, mn, d, dm, p, p1, in=7, data[10], crcg[4], crcb[3], error[3], *temp, *temp1;
-    cout<<"Enter the data"<<endl;
+    cout<<"Enter the data (8 bits)"<<endl;
     for(i = 0; i < 7; i++)
     {
         cin>>data[i];
@@ -239,7 +239,7 @@ int main()
         data[i1] = 0;
     }
     
-    cout<<"Enter the CRC-G"<<endl;
+    cout<<"Enter the CRC-G (5 bits)"<<endl;
     for(j = 0; j < 4; j++)
     {
         cin>>crcg[j];
